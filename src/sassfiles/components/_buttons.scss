@@ -1,0 +1,8 @@
+@use "../colors" as *;
+
+.loginBtn {
+  background-color: $btncolor;
+  border-radius: 8px;
+  height: 48px;
+  width: 447px;
+}
