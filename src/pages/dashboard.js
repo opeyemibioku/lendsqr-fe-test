@@ -15,6 +15,8 @@ import { Users } from "../components/cards";
 export const Dashboard = () => {
   return (
     <>
+      <div className="container-fluid"></div>
+      <DashboardNavbar />
       <div className="container-fluid">
         <div className="row d-flex justify-content-center">
           <div className="col-lg-3">
@@ -22,10 +24,6 @@ export const Dashboard = () => {
           </div>
           <div className="col-lg-9 col-md-12">
             <div className="col">
-              <div className="">
-                {" "}
-                <DashboardNavbar />
-              </div>
               <h3>Users</h3>
               <div className="">
                 {" "}
@@ -46,12 +44,24 @@ export const Dashboard = () => {
 const OrganizationUsersTable = () => {
   return (
     <>
-      <div className="container">
+      <div className="container containerShadow">
         <div className="table-responsive">
           <table className="table">
             <thead className="change">
               <tr className="letter">
-                <th scope="col">ORGANIZATION</th>
+                <th scope="col">
+                  ORGANIZATION{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-filter"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                  </svg>
+                </th>
                 <th scope="col">USERNAME </th>
                 <th scope="col"> EMAIL</th>
                 <th scope="col">PHONE NUMBER</th>

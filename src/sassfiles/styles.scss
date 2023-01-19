@@ -1,1 +1,8 @@
-@use "./components/buttons" as *;
+@use "./colors" as *;
+@use "./font" as *;
+@use "./components/buttons";
+@use "./components/nav";
+@use "./components/card";
+@use "./pages/dashboard";
+
+@use "./pages/userGeneralDetails";

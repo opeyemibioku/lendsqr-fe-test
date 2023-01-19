@@ -92,8 +92,8 @@ export const OrganizationForm = () => {
                 </select>
               </div>
               <div className="">
-                <ResetBtn className="px-2" />
-                <FilterBtn className="px-2" />
+                <ResetBtn className=""/>
+                <FilterBtn className=""/>
               </div>
             </form>
             {/* <Form onSubmit={handleSubmit} noValidate validated={validated}>

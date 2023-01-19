@@ -1,0 +1,12 @@
+@use "../colors" as *;
+.borderRightNone {
+  border-right: none !important;
+}
+
+.navbarShadow {
+  background: #ffffff;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+.navText {
+  color: $headertextcolor;
+}

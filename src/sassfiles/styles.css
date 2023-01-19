@@ -1,3 +1,42 @@
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #213f7d;
+}
+
+h5 {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #545f7d;
+  line-height: 1.75rem;
+  font-family: "Comfortaa", cursive;
+}
+
 .loginBtn {
   background-color: #39cdcc;
   border-radius: 8px;
@@ -17,5 +56,37 @@
   border-radius: 8px;
   height: 40px;
   width: 98px;
+}
+
+.borderRightNone {
+  border-right: none !important;
+}
+
+.navbarShadow {
+  background: #ffffff;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+
+.navText {
+  color: #213f7d;
+}
+
+.cardShadow {
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  width: 240px;
+  height: 160px;
+}
+
+.containerShadow {
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+.tableHeaderText {
+  color: #213f7d;
 }
 /*# sourceMappingURL=styles.css.map */
