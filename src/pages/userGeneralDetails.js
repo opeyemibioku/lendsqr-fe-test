@@ -1,6 +1,7 @@
 // internal import
 import { DashboardNavbar, SidebarLarge, SidebarSmall } from "../components/nav";
 import { Users } from "../components/cards";
+import { OrganizationForm } from "../components/forms";
 
 // export const Dashboard = () => {
 //   return (
@@ -12,7 +13,7 @@ import { Users } from "../components/cards";
 //     </>
 //   );
 // };
-export const Dashboard = () => {
+export const UserGeneralDetails = () => {
   return (
     <>
       <div className="container-fluid">
@@ -36,6 +37,7 @@ export const Dashboard = () => {
                 <OrganizationUsersTable />
               </div>
             </div>
+            <OrganizationForm />
           </div>{" "}
         </div>
       </div>

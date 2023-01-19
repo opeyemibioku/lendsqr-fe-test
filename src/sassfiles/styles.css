@@ -4,4 +4,18 @@
   height: 48px;
   width: 447px;
 }
+
+.resetBtn {
+  background-color: #39cdcc;
+  border-radius: 8px;
+  height: 40px;
+  width: 98px;
+}
+
+.filterBtn {
+  background-color: #39cdcc;
+  border-radius: 8px;
+  height: 40px;
+  width: 98px;
+}
 /*# sourceMappingURL=styles.css.map */

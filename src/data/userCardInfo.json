@@ -1,0 +1,29 @@
+{
+  "usersCardInfo": [
+    {
+      "id": 1,
+      "headingone": "USERS",
+      "headingtwo": "2453",
+      "icon": "../../assets/images/admin-dashboard/stat-one.png"
+    },
+    {
+      "id": 2,
+      "headingone": "ACTIVE USERS",
+      "headingtwo": "2453",
+      "icon": "../../assets/images/admin-dashboard/stat-two.png"
+    },
+    {
+      "id": 3,
+      "headingone": "USERS WITH LOANS",
+      "headingtwo": "12,453",
+      "icon": "../../assets/images/admin-dashboard/stat-three.png"
+    },
+
+    {
+      "id": 4,
+      "headingone": "USERS WITH SAVINGS",
+      "headingtwo": "102453",
+      "icon": "../../assets/images/admin-dashboard/stat-four.png"
+    }
+  ]
+}
